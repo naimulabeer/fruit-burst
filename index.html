@@ -367,46 +367,143 @@
             class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl"
           >
             <figure><img src="images/fruit6.png" alt="Apple" /></figure>
-            <div class="card-body justify-center">
+            <div class="card-body justify-center text-center">
               <h2 class="text-2xl font-bold">Apples</h2>
-              <div class="rating">
+              <div class="rating rating-md rating-half justify-center">
+                <input type="radio" name="rating-10" class="rating-hidden" />
                 <input
                   type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-orange-500"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-1"
                 />
                 <input
                   type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-orange-500"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-1"
                   checked
                 />
                 <input
                   type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-orange-500"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
                 />
                 <input
                   type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-orange-500"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
                 />
                 <input
                   type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-orange-500"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
                 />
               </div>
               <!-- The button to open modal -->
-              <label for="my_modal_7" class="btn">Details</label>
+              <label for="modal_1" class="btn">Details</label>
 
-              <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+              <input type="checkbox" id="modal_1" class="modal-toggle" />
               <div class="modal">
-                <div class="modal-box">
-                  <h3 class="text-lg font-bold">Hello!</h3>
-                  <p class="py-4">This modal works with a hidden checkbox!</p>
+                <div class="modal-box justify-center text-center gap-2">
+                  <figure><img src="images/fruit6.png" alt="Apple" /></figure>
+                  <h3 class="font-bold text-lg">Apples</h3>
+                  <p class="py-4 text-sm">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                  <div class="rating rating-md rating-half justify-center">
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="rating-hidden"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                  </div>
+                  <div class="modal-action justify-center">
+                    <label
+                      for="modal_1"
+                      class="btn text-[#F85559] border-1 border-[#F85559] border-solid rounded-lg"
+                      >Close</label
+                    >
+                    <label for="modal_1" class="btn bg-[#F85559] text-white"
+                      >Buy Now</label
+                    >
+                  </div>
                 </div>
-                <label class="modal-backdrop" for="my_modal_7">Close</label>
               </div>
             </div>
           </div>
@@ -415,9 +512,144 @@
             class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl"
           >
             <figure><img src="images/fruit7.png" alt="Orange" /></figure>
-            <div class="card-body justify-center">
+            <div class="card-body justify-center text-center">
               <h2 class="text-2xl font-bold">Orange</h2>
-              <p>Creamer could be replaced by fresh milk</p>
+              <div class="rating rating-md rating-half justify-center">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+              </div>
+              <!-- The button to open modal -->
+              <label for="modal_2" class="btn">Details</label>
+
+              <input type="checkbox" id="modal_2" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box justify-center text-center gap-2">
+                  <figure><img src="images/fruit7.png" alt="Orange" /></figure>
+                  <h3 class="font-bold text-lg">Orange</h3>
+                  <p class="py-4 text-sm">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                  <div class="rating rating-md rating-half justify-center">
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="rating-hidden"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                  </div>
+                  <div class="modal-action justify-center">
+                    <label
+                      for="modal_2"
+                      class="btn text-[#F85559] border-1 border-[#F85559] border-solid rounded-lg"
+                      >Close</label
+                    >
+                    <label for="modal_2" class="btn bg-[#F85559] text-white"
+                      >Buy Now</label
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <!-- third card -->
@@ -425,9 +657,146 @@
             class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl"
           >
             <figure><img src="images/fruit8.png" alt="reddragon" /></figure>
-            <div class="card-body justify-center">
+            <div class="card-body justify-center text-center">
               <h2 class="text-2xl font-bold">Red Dragon</h2>
-              <p>Creamer could be replaced by fresh milk</p>
+              <div class="rating rating-md rating-half justify-center">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+              </div>
+              <!-- The button to open modal -->
+              <label for="modal_3" class="btn">Details</label>
+
+              <input type="checkbox" id="modal_3" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box justify-center text-center gap-2">
+                  <figure>
+                    <img src="images/fruit8.png" alt="reddragon" />
+                  </figure>
+                  <h3 class="font-bold text-lg">Red Dragon</h3>
+                  <p class="py-4 text-sm">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                  <div class="rating rating-md rating-half justify-center">
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="rating-hidden"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                  </div>
+                  <div class="modal-action justify-center">
+                    <label
+                      for="modal_3"
+                      class="btn text-[#F85559] border-1 border-[#F85559] border-solid rounded-lg"
+                      >Close</label
+                    >
+                    <label for="modal_3" class="btn bg-[#F85559] text-white"
+                      >Buy Now</label
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <!-- fourth card -->
@@ -435,9 +804,144 @@
             class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl"
           >
             <figure><img src="images/fruit9.png" alt="Banana" /></figure>
-            <div class="card-body justify-center">
+            <div class="card-body justify-center text-center">
               <h2 class="text-2xl font-bold">Banana</h2>
-              <p>Creamer could be replaced by fresh milk</p>
+              <div class="rating rating-md rating-half justify-center">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                />
+                <input
+                  type="radio"
+                  name="rating-10"
+                  class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                />
+              </div>
+              <!-- The button to open modal -->
+              <label for="modal_4" class="btn">Details</label>
+
+              <input type="checkbox" id="modal_4" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box justify-center text-center gap-2">
+                  <figure><img src="images/fruit9.png" alt="Apple" /></figure>
+                  <h3 class="font-bold text-lg">Banana</h3>
+                  <p class="py-4 text-sm">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                  <div class="rating rating-md rating-half justify-center">
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="rating-hidden"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      class="bg-[#FBC0A8] mask mask-star-2 mask-half-2"
+                    />
+                  </div>
+                  <div class="modal-action justify-center">
+                    <label
+                      for="modal_4"
+                      class="btn text-[#F85559] border-1 border-[#F85559] border-solid rounded-lg"
+                      >Close</label
+                    >
+                    <label for="modal_4" class="btn bg-[#F85559] text-white"
+                      >Buy Now</label
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
