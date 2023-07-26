@@ -20,6 +20,19 @@
       rel="stylesheet"
     />
 
+    <!-- tailwind custom color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              "hero-pattern": "url('/images/team.png')",
+            },
+          },
+        },
+      };
+    </script>
+
     <style>
       .font-lato {
         font-family: "Lato", sans-serif;
@@ -942,6 +955,65 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="bg-[url('./images/team.png')] gap-12 text-white bg-no-repeat bg-cover border-2 rounded-lg mb-10"
+      >
+        <div class="py-10">
+          <div class="mb-5">
+            <h2 class="lg:text-3xl text-center font-extrabold text-white">
+              Meet the team
+            </h2>
+            <p class="text-white text-xs lg:text-base font-medium text-center">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical <br class="hidden lg:block" />Latin
+              literature from 45 BC, making it over 2000 years old.
+            </p>
+          </div>
+        </div>
+        <div class="lg:flex lg:justify-around px-[150px]">
+          <div class="mb-5">
+            <img src="images/member1.png" alt="mem1" />
+            <h1 class="text-center text-base">Awlad Hossain</h1>
+            <p class="text-xs text-center mb-2">Fruits Expert</p>
+            <div class="flex justify-center gap-2">
+              <img src="icons/facebook1.svg" alt="fb" />
+              <img src="icons/twitter1.svg" alt="" />
+              <img src="icons/linkedin1.svg" alt="" />
+            </div>
+          </div>
+          <div class="mb-5">
+            <img src="images/member2.png" alt="mem2" />
+            <h1 class="text-center text-base">Safia Chowdhury</h1>
+            <p class="text-xs text-center mb-2">Fruits Expert</p>
+            <div class="flex justify-center gap-2">
+              <img src="icons/facebook1.svg" alt="fb" />
+              <img src="icons/twitter1.svg" alt="" />
+              <img src="icons/linkedin1.svg" alt="" />
+            </div>
+          </div>
+          <div class="mb-5">
+            <img src="images/member3.png" alt="mem3" />
+            <h1 class="text-center text-base">Rokib Hossain</h1>
+            <p class="text-xs text-center mb-2">Fruits Expert</p>
+            <div class="flex justify-center gap-2">
+              <img src="icons/facebook1.svg" alt="fb" />
+              <img src="icons/twitter1.svg" alt="" />
+              <img src="icons/linkedin1.svg" alt="" />
+            </div>
+          </div>
+          <div class="mb-5">
+            <img src="images/member4.png" alt="mem4" />
+            <h1 class="text-center text-base">Chaity</h1>
+            <p class="text-xs text-center mb-2">Fruits Expert</p>
+            <div class="flex justify-center gap-2">
+              <img src="icons/facebook1.svg" alt="fb" />
+              <img src="icons/twitter1.svg" alt="" />
+              <img src="icons/linkedin1.svg" alt="" />
             </div>
           </div>
         </div>
